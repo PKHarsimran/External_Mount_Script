@@ -10,15 +10,11 @@ Usage
 
     Make the script executable:
 
-bash
+    chmod +x <script-name>.sh
 
-chmod +x <script-name>.sh
+Run the script:
 
-    Run the script:
-
-php
-
-./<script-name>.sh
+     ./<script-name>.sh
 
 Output
 

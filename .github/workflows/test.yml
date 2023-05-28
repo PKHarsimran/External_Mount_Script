@@ -8,10 +8,7 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-      
-    - name: Install sudo (if necessary)
-      run: apt-get update && apt-get install -y sudo
-
+    
     - name: Test bash script
       run: |
         sudo chmod +x ./Mount.sh
